@@ -7,7 +7,7 @@ from cnnClassifier import logging
 from cnnClassifier.utils.common import get_size
 from cnnClassifier.entity.config_entity import PrepareCallbacksConfig
 from pathlib import Path
-
+import time
 class PrepareCallback:
     def __init__(self, config: PrepareCallbacksConfig):
         self.config = config
