@@ -19,7 +19,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/Chicken-Disease-Classification--Project
+https://github.com/Ruhamakhan123/Chicken-Disease-Classification.git
 ```
 
 ### STEP 01- Create a conda environment after opening the repository
@@ -128,13 +128,15 @@ open up you local host and port
 
 # AZURE-CICD-Deployment-with-Github-Actions
 
+Your pass here
+
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest
+docker build -t chickendisease.azurecr.io/chicken:latest
 
-docker login chickenapp.azurecr.io
+docker login chickendisease.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push chickendisease.azurecr.io/chicken:latest
 
 ## Deployment Steps:
 
