@@ -130,7 +130,7 @@ open up you local host and port
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t chickenapp.azurecr.io/chicken:latest
 
 docker login chickenapp.azurecr.io
 
